@@ -28,6 +28,7 @@ p {
 .logo {
     width: 50px;
     margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 
@@ -83,27 +84,27 @@ p {
      position: relative;
  }
 
- .main-banner h1, .main-banner p {
+.main-banner h1, .main-banner p {
      color: #FFF;
      text-align: center;
      font-weight: bold;
  }
 
- .main-banner h1 {
+.main-banner h1 {
      font-size: 54px;
  }
 
- .main-banner p {
+.main-banner p {
     font-size: 32px;
  }
 
  /* especialidades */
 
- .specialties-contanier {
+.specialties-contanier {
      padding: 5em 0;     
  }
 
- .specialties-contanier ul {
+.specialties-contanier ul {
      display: flex;
      width: 90%;
      position: relative;
@@ -112,27 +113,27 @@ p {
      padding-left: 0;
  }
 
- .specialties-contanier ul li {
+.specialties-contanier ul li {
      flex: 1 1 200px;
      list-style: none;
      align-items: center;
      padding-left: 20px;
  }
 
- .fas {
+.fas {
      font-size: 60px;
      margin-bottom: 15px;
  }
 
- .fa-shield-alt {
+.fa-shield-alt {
      color: #2CC76A;
  }
 
- .fa-rocket {
+.fa-rocket {
     color: #EF3F29;
  }
 
- .fa-comments {
+.fa-comments {
     color: #EF8F29;
  }
 
@@ -140,27 +141,27 @@ p {
      margin-bottom: 25px;     
  }
 
- .specialties-contanier ul li p {
+.specialties-contanier ul li p {
     line-height: 24px;    
  }
 
  /* PREÇOS */
 
- .princing-container {
+.princing-container {
      padding-bottom: 5em;
      text-align: center;
  }
 
- .pricing-container h1 {
+.pricing-container h1 {
     font-size: 36px;
     margin-top: 0;
  }
 
- .princing-container p {
+.princing-container p {
      font-size: 20px;
  } 
 
- .plans-container  {
+.plans-container  {
      display: flex;
      justify-content: space-between;
      margin-top: 50px;
@@ -170,18 +171,18 @@ p {
      margin-right: auto;
  }
 
- .plan {
+.plan {
      flex: 1 1 200px;
      max-width: 275px;
      margin-left: 20px;
      margin-right: 20px;
  }
 
- .plan ul {
+.plan ul {
      padding: 0;
  }
 
- .plan li {
+.plan li {
      list-style: none;
      height: 50px;
      line-height: 50px;
@@ -189,7 +190,7 @@ p {
      color: #333;
  }
 
- .plan .price {
+.plan .price {
      width: 120px;
      height: 120px;
     border-radius: 50%;
@@ -203,7 +204,7 @@ p {
     margin-bottom: -50px;    
  }
 
- .plan .plan-name {
+.plan .plan-name {
      text-transform: uppercase;
      font-size: 20px;
      font-weight: bold;
@@ -213,7 +214,7 @@ p {
      padding-bottom: 20px;
  }
 
- .plan .plan-btn {
+.plan .plan-btn {
      background-color: #2CC762;
      color: #FFF;
      font-size: 24px;
@@ -222,30 +223,105 @@ p {
      cursor: pointer;
  }
 
- .plan .recommended {
+.plan .recommended {
      background-color: #f45c57;
  }
 
- /*  */
+ /* buscar domínio */
 
+.searchdomain-container {
+     background-color: #34454E;
+     text-align: center;
+     padding-bottom: 5em 0;
+ }
 
+.searchdomain-container h2 {
+    color: #FFF;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+ }
 
+.searchdomain-container p {
+     color: #D5D5D5;
+     font-size: 24px;
+     margin-bottom: 25px;
+ }
 
+.searchdomain-container input {
+     display: block;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     border: none;
+     border-radius: 5px;
+}
 
+.searchdomain-container input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
 
+.searchdomain-container input[type=submit] {
+    background-color: #2CC76A ;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 24px;
+}
 
+/* contato */
 
+.contact-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
 
+.contact-container h2 {
+    font-size: 36px;
+}
 
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
 
+.contact-container input, .contact-container textarea {
+    width: 200px;
+    padding-bottom: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
 
+.contact-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
 
+.contact-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2CC76A;
+    color: #FFF;
+}
 
+/* footer */
 
- 
-
-
-
-
-
-
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
