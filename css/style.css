@@ -51,3 +51,58 @@ p {
     text-transform: uppercase;
     margin-left: 25px;
 }
+
+.navbar-items li a {
+    color: #FFF;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar-items li a:hover {
+    color: #CCC;
+ }
+
+ .default-btn {
+     padding: 15px 20px;
+     background-color: #2CC76A;
+     border-radius: 5px;
+     color: #FFF;
+ }
+
+ .default-btn:hover {
+     background-color: #22BB5F;
+ }
+
+ /* main banner */
+
+ .main-banner {
+     background-image: url('../img/mainbanner.png');
+     background-size: cover;
+     background-position: center;
+     padding: 10em 0;
+     position: relative;
+ }
+
+ .main-banner h1, .main-banner p {
+     color: #FFF;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .main-banner h1 {
+     font-size: 54px;
+ }
+
+ .main-banner p {
+    font-size: 32px;
+ }
+
+
+
+ 
+
+
+
+
+
+
