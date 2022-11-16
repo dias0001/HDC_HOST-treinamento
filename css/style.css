@@ -340,3 +340,9 @@ footer {
         margin-right: 5px;
     }
 }
+
+@media screen and (max-width: 900px) {    
+
+    .plans-container, specialties-container ul {
+        flex-wrap: wrap;
+    }
