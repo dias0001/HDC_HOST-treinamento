@@ -173,6 +173,7 @@ p {
 
 .plan {
      flex: 1 1 200px;
+     max-width: 275px;
      margin-left: 20px;
      margin-right: 20px;
  }
